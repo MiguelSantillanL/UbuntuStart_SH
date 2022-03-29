@@ -15,6 +15,7 @@ mv ar_track_alvar ar_track_alvar_msgs/ ar_track_alvar.rosinstall /home/miguel/la
 cd
 cd ~/laviria/catkin_ws/
 catkin build
+source devel/setup.sh
 ###       trabajo con AR_TRAC_ALVAR
 cd
 git clone https://github.com/MiguelSantillanL/ROS_Cam_ARTag.git
@@ -23,4 +24,5 @@ mv src/ /home/miguel/laviria/catkin_ws/
 cd
 cd ~/laviria/catkin_ws/
 catkin build
+source devel/setup.sh
 
