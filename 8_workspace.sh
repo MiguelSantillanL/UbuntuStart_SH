@@ -9,7 +9,7 @@ catkin build
 cd
 git clone https://github.com/ros-perception/ar_track_alvar/tree/noetic-devel
 cd ar_track_alvar/
-
+mv ar_track_alvar ar_track_alvar_msgs/ ar_track_alvar.rosinstall /home/miguel/
 cd
 cd ~/laviria/catkin_ws/
 catkin build
