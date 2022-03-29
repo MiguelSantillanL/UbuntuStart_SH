@@ -5,6 +5,8 @@ source /opt/ros/noetic/setup.bash
 mkdir -p ~/laviria/catkin_ws/src
 cd ~/laviria/catkin_ws/
 catkin build
+echo "source \$HOME/laviria/catkin_ws/devel/setup.bash" >> ~/.bashrc
+source .bashrc 
 ##        AR_TRAC_ALVAR
 cd
 git clone https://github.com/ros-perception/ar_track_alvar/tree/noetic-devel
