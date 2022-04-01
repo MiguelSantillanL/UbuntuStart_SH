@@ -24,3 +24,5 @@ sudo apt-get -y upgrade
 
 git config --global user.name "miguel"
 #git config --global user.email johndoe@example.com
+
+sudo apt install net-tools
